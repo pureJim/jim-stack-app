@@ -1,9 +1,11 @@
-import { BrowserRouter } from 'react-router';
+import { RouterProvider } from 'react-router';
+
+import router from './routes';
 
 function App() {
   return (
     <div id="app">
-      <BrowserRouter>Jim Stack</BrowserRouter>
+      <RouterProvider router={router} />
     </div>
   );
 }

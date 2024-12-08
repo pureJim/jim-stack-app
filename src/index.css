@@ -24,7 +24,7 @@
 html,
 body {
   height: 100%;
-  color: var(--font-color);
+  color: var(--color-font);
   font-family: var(--font);
   background-color: var(--bg-color);
   -webkit-font-smoothing: antialiased;
