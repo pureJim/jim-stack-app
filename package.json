@@ -17,6 +17,7 @@
     "axios": "^1.7.9",
     "classnames": "^2.5.1",
     "dayjs": "^1.11.13",
+    "immer": "^10.1.1",
     "is-hotkey": "^0.2.0",
     "lexical": "^0.21.0",
     "lodash-es": "^4.17.21",

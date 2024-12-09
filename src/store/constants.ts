@@ -1,7 +1,6 @@
 enum StoreConstants {
-  PLATFORM_SYSTEM_STORE = '__GRIP_PlatformStore__',
-  USER_STORE = '__GRIP_UserStore__',
-  BRIEF_STORE = '__GRIP_BriefStore__',
+  PLATFORM_SYSTEM_STORE = '__JIM-STACK_PlatformStore__',
+  USER_STORE = '__JIM-STACK_UserStore__',
 }
 
 export default StoreConstants;

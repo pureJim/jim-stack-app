@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { RouteObject } from 'react-router';
+import { Navigate, RouteObject } from 'react-router';
 
 import LazyLoad from './lazy-load';
 
@@ -9,9 +9,13 @@ const PlainRoutes: RouteObject[] = [
     element: LazyLoad(lazy(() => import('@/views/Preview'))),
   },
   {
-    path: '401',
-    element: LazyLoad(lazy(() => import('@/components/RedirectPage/AuthPage'))),
+    path: '',
+    element: <Navigate to="/404" />,
   },
+  // {
+  //   path: '*',
+  //   element: <Navigate to="/404" />,
+  // },
 ];
 
 export default PlainRoutes;
