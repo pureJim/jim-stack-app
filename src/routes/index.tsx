@@ -2,8 +2,8 @@ import { lazy } from 'react';
 import { createBrowserRouter } from 'react-router';
 
 import ErrorPge from '@/components/ErrorPge';
-import MainLayout from '@/layouts/Main';
-import PlainLayout from '@/layouts/Plain';
+import MainLayout from '@/layouts/main';
+import PlainLayout from '@/layouts/plain';
 
 import LazyLoad from './lazy-load';
 import MainRoutes from './main';

@@ -19,7 +19,7 @@
 html,
 body {
   height: 100%;
-  color: var(--color-font);
+  color: var(--font-color);
   font-family: var(--font);
   background-color: var(--bg-color);
   -webkit-font-smoothing: antialiased;

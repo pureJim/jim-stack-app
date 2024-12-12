@@ -6,10 +6,13 @@
     'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol';
   --theme-color: #39c5bb;
-  --color-font: #414f73;
-  --color-title: #0c1a40;
-  --color-primary: #39c5bb;
-  --color-danger: #ff5824;
-  --color-info: #7a85a2;
-  --bg-color: #fff;
+  --font-color: #414f73;
+  --title-color: #0c1a40;
+  --primary-color: #39c5bb;
+  --secondary-color: #4fd5cd;
+  --warning-color: #f5a623;
+  --danger-color: #d0021b;
+  --success-color:#7ed321;
+  --info-color: #4a90e2;
+  --bg-color: #f7f9fa;
 }
