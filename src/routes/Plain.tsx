@@ -1,9 +1,9 @@
 import { lazy } from 'react';
-import { Navigate, RouteObject } from 'react-router';
+import { Navigate } from 'react-router';
 
-import LazyLoad from './lazy-load';
+import LazyLoad from './loader/lazy-load';
 
-const PlainRoutes: RouteObject[] = [
+const PlainRoutes: Route.TRouteObject[] = [
   {
     path: 'preview',
     element: LazyLoad(lazy(() => import('@/views/Preview'))),
