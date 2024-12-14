@@ -20,7 +20,11 @@ const queryClient = new QueryClient({
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
-      <Provider>
+      <Provider
+        value={{
+          initialColorMode: 'system',
+        }}
+      >
         <AuthRoute>
           <App />
         </AuthRoute>
