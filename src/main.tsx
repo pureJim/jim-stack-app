@@ -3,8 +3,6 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
-import { Provider } from '@/components/ui/provider';
-
 import 'normalize.css';
 
 import AuthRoute from '@/routes/auth-route.tsx';
@@ -20,16 +18,10 @@ const queryClient = new QueryClient({
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
-      <Provider
-        value={{
-          initialColorMode: 'system',
-        }}
-      >
-        <AuthRoute>
-          <App />
-        </AuthRoute>
-        <ReactQueryDevtools initialIsOpen={false} position="right" />
-      </Provider>
+      <AuthRoute>
+        <App />
+      </AuthRoute>
+      <ReactQueryDevtools initialIsOpen={false} position="right" />
     </QueryClientProvider>
   </StrictMode>,
 );

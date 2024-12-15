@@ -1,14 +1,12 @@
-import { HStack } from '@chakra-ui/react';
-
-import { Button } from '@/components/ui/button';
+import { Paper } from '@mui/material';
+import Button from '@mui/material/Button';
 
 const HomePage = () => {
   return (
-    <div style={{ padding: '20px' }}>
-      <HStack>
-        <Button colorPalette="primary">Click1</Button>
-        <Button colorPalette="primary">Click2</Button>
-      </HStack>
+    <div>
+      <Paper elevation={2}>
+        <Button>click me</Button>
+      </Paper>
     </div>
   );
 };
