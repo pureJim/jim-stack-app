@@ -1,6 +1,6 @@
 {
-  "name": "react19-ts-vite-template",
-  "version": "0.0.0",
+  "name": "jim-stack-app",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -17,9 +17,11 @@
     "axios": "^1.8.1",
     "classnames": "^2.5.1",
     "dayjs": "^1.11.13",
+    "framer-motion": "^12.4.10",
     "immer": "^10.1.1",
     "is-hotkey": "^0.2.0",
     "lexical": "^0.25.0",
+    "localforage": "^1.10.0",
     "lodash-es": "^4.17.21",
     "lottie-web": "^5.12.2",
     "normalize.css": "^8.0.1",
